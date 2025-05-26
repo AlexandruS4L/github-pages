@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conturile Mele Social Media și Streaming</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            /* Gradient de fundal subtil și plăcut */
+            background: linear-gradient(135deg, #6b46c1 0%, #8b5cf6 100%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            color: #ffffff; /* Culoare text implicită */
+            padding: 2rem 0; /* Adaugă padding vertical pentru ecrane mici */
+        }
+        .container {
+            /* Stiluri pentru containerul principal */
+            background-color: rgba(17, 24, 39, 0.8); /* Fundal închis, semi-transparent */
+            backdrop-filter: blur(8px); /* Efect de blur pentru fundal */
+            padding: 2.5rem;
+            border-radius: 1.5rem; /* Colțuri rotunjite */
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5); /* Umbră pronunțată */
+            max-width: 960px; /* Lățime maximă */
+            width: 95%; /* Lățime fluidă */
+            margin: 2rem auto; /* Centrare și margini */
+            border: 1px solid rgba(109, 40, 217, 0.4); /* Bordură subtilă */
+        }
+        h1 {
+            color: #d8b4fe; /* Culoare pentru titlu */
+        }
+        .section-title {
+            color: #a78bfa; /* Culoare pentru titlurile secțiunilor */
+            border-bottom: 2px solid #a78bfa; /* Linie sub titlu */
+            padding-bottom: 0.5rem;
+        }
+        .link-card {
+            background-color: rgba(109, 40, 217, 0.3); /* Fundal semi-transparent pentru carduri */
+            transition: all 0.3s ease-in-out; /* Tranziție lină pentru hover */
+            border: 1px solid rgba(109, 40, 217, 0.5); /* Bordură pentru carduri */
+        }
+        .link-card:hover {
+            background-color: rgba(109, 40, 217, 0.5); /* Culoare la hover */
+            transform: translateY(-5px) scale(1.02); /* Animație de ridicare și scalare */
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); /* Umbră la hover */
+        }
+        .icon {
+            color: #d8b4fe; /* Culoare pentru iconițe */
+        }
+        .email-item {
+            background-color: rgba(109, 40, 217, 0.2); /* Fundal pentru emailuri */
+            border: 1px solid rgba(109, 40, 217, 0.4);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-4xl md:text-5xl font-extrabold text-center mb-10 tracking-tight">
+            Conturile Mele Social Media și Streaming
+        </h1>
+
+        <h2 class="section-title text-3xl font-bold mb-6 mt-8">
+            <i class="fab fa-youtube icon mr-3"></i> YouTube
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+            <a href="https://www.youtube.com/@Alx_S4L100" target="_blank" class="link-card p-5 rounded-2xl flex items-center space-x-4">
+                <i class="fa-solid fa-gamepad text-3xl icon"></i>
+                <div>
+                    <p class="font-semibold text-lg">Canal Gaming și Edituri</p>
+                    <p class="text-sm text-gray-300">Descoperă aventurile mele de gaming și proiectele de editare video.</p>
+                </div>
+            </a>
+            <a href="https://www.youtube.com/channel/UCJorN9daLwoOUdDrwC2YovQ" target="_blank" class="link-card p-5 rounded-2xl flex items-center space-x-4">
+                <i class="fa-solid fa-music text-3xl icon"></i>
+                <div>
+                    <p class="font-semibold text-lg">Canal Artist 1</p>
+                    <p class="text-sm text-gray-300">Muzică, artă și creativitate.</p>
+                </div>
+            </a>
+            <a href="https://www.youtube.com/@Alex_SharkKK/featured" target="_blank" class="link-card p-5 rounded-2xl flex items-center space-x-4">
+                <i class="fa-solid fa-palette text-3xl icon"></i>
+                <div>
+                    <p class="font-semibold text-lg">Canal Artist 2</p>
+                    <p class="text-sm text-gray-300">O altă perspectivă asupra artei mele.</p>
+                </div>
+            </a>
+        </div>
+
+        <h2 class="section-title text-3xl font-bold mb-6 mt-8">
+            <i class="fab fa-tiktok icon mr-3"></i> TikTok
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+            <a href="https://www.tiktok.com/@al3x_shark" target="_blank" class="link-card p-5 rounded-2xl flex items-center space-x-4">
+                <i class="fa-solid fa-video text-3xl icon"></i>
+                <div>
+                    <p class="font-semibold text-lg">TikTok Principal</p>
+                    <p class="text-sm text-gray-300">Clipuri scurte și distractive.</p>
+                </div>
+            </a>
+            <a href="https://www.tiktok.com/@sharkkk2000" target="_blank" class="link-card p-5 rounded-2xl flex items-center space-x-4">
+                <i class="fa-solid fa-microphone-alt text-3xl icon"></i>
+                <div>
+                    <p class="font-semibold text-lg">TikTok Artist</p>
+                    <p class="text-sm text-gray-300">Conținut artistic și muzical.</p>
+                </div>
+            </a>
+        </div>
+
+        <h2 class="section-title text-3xl font-bold mb-6 mt-8">
+            <i class="fab fa-instagram icon mr-3"></i> Instagram
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+            <a href="https://www.instagram.com/alexandru.s4l/" target="_blank" class="link-card p-5 rounded-2xl flex items-center space-x-4">
+                <i class="fa-solid fa-camera text-3xl icon"></i>
+                <div>
+                    <p class="font-semibold text-lg">Instagram Personal</p>
+                    <p class="text-sm text-gray-300">Momente din viața de zi cu zi.</p>
+                </div>
+            </a>
+            <a href="https://www.instagram.com/shar_kkk08/" target="_blank" class="link-card p-5 rounded-2xl flex items-center space-x-4">
+                <i class="fa-solid fa-brush text-3xl icon"></i>
+                <div>
+                    <p class="font-semibold text-lg">Instagram Artist</p>
+                    <p class="text-sm text-gray-300">Portofoliul meu artistic.</p>
+                </div>
+            </a>
+        </div>
+
+        <h2 class="section-title text-3xl font-bold mb-6 mt-8">
+            <i class="fa-solid fa-headphones icon mr-3"></i> Muzică
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+            <a href="https://soundcloud.com/alex-sharkkk" target="_blank" class="link-card p-5 rounded-2xl flex items-center space-x-4">
+                <i class="fab fa-soundcloud text-3xl icon"></i>
+                <div>
+                    <p class="font-semibold text-lg">SoundCloud Demo</p>
+                    <p class="text-sm text-gray-300">Ascultă demo-urile mele muzicale.</p>
+                </div>
+            </a>
+            <a href="https://open.spotify.com/artist/1jhfdcJQ3b8Qw4STV8ezgO" target="_blank" class="link-card p-5 rounded-2xl flex items-center space-x-4">
+                <i class="fab fa-spotify text-3xl icon"></i>
+                <div>
+                    <p class="font-semibold text-lg">Spotify 1</p>
+                    <p class="text-sm text-gray-300">Melodiile mele pe Spotify.</p>
+                </div>
+            </a>
+            <a href="https://open.spotify.com/artist/0ILt1zQaG5xFhcZBkd5siU" target="_blank" class="link-card p-5 rounded-2xl flex items-center space-x-4">
+                <i class="fab fa-spotify text-3xl icon"></i>
+                <div>
+                    <p class="font-semibold text-lg">Spotify 2</p>
+                    <p class="text-sm text-gray-300">Mai multă muzică pe Spotify.</p>
+                </div>
+            </a>
+            <a href="https://open.spotify.com/playlist/5e795E2novFmx5KC1kKf4J?pi=xZM_kotYQfSyV" target="_blank" class="link-card p-5 rounded-2xl flex items-center space-x-4">
+                <i class="fab fa-spotify text-3xl icon"></i>
+                <div>
+                    <p class="font-semibold text-lg">Playlist Spotify: O Călătorie Lungă</p>
+                    <p class="text-sm text-gray-300">Playlistul meu personal, ascultat zilnic.</p>
+                </div>
+            </a>
+        </div>
+
+        <h2 class="section-title text-3xl font-bold mb-6 mt-8">
+            <i class="fa-solid fa-tv icon mr-3"></i> Streaming
+        </h2>
+        <div class="grid grid-cols-1 gap-6 mb-8">
+            <a href="https://kick.com/alexandru-s4l" target="_blank" class="link-card p-5 rounded-2xl flex items-center space-x-4">
+                <i class="fa-solid fa-gamepad text-3xl icon"></i>
+                <div>
+                    <p class="font-semibold text-lg">Canal Kick</p>
+                    <p class="text-sm text-gray-300">Urmărește-mă live pe Kick!</p>
+                </div>
+            </a>
+        </div>
+
+        <h2 class="section-title text-3xl font-bold mb-6 mt-8">
+            <i class="fa-solid fa-link icon mr-3"></i> Alte Linkuri Utile
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+            <a href="https://ro.mobilfox.com/TIKTOK" target="_blank" class="link-card p-5 rounded-2xl flex items-center space-x-4">
+                <i class="fa-solid fa-tag text-3xl icon"></i>
+                <div>
+                    <p class="font-semibold text-lg">Cod Reducere Mobilfox</p>
+                    <p class="text-sm text-gray-300">Folosește codul meu ”TIKTOK” pentru reduceri la Mobilfox!</p>
+                </div>
+            </a>
+            <a href="https://discord.gg/bMAVuaTtFN" target="_blank" class="link-card p-5 rounded-2xl flex items-center space-x-4">
+                <i class="fab fa-discord text-3xl icon"></i>
+                <div>
+                    <p class="font-semibold text-lg">Invitație Server Discord</p>
+                    <p class="text-sm text-gray-300">Alătură-te comunității mele pe Discord!</p>
+                </div>
+            </a>
+        </div>
+
+        <h2 class="section-title text-3xl font-bold mb-6 mt-8">
+            <i class="fa-solid fa-envelope icon mr-3"></i> Emailuri
+        </h2>
+        <div class="space-y-4">
+            <div class="email-item p-4 rounded-xl flex items-center space-x-4">
+                <i class="fa-solid fa-briefcase text-2xl icon"></i>
+                <div>
+                    <p class="font-semibold text-lg">Email Business:</p>
+                    <a href="mailto:alexpomirleanu10@gmail.com" class="text-gray-300 hover:text-purple-300 transition-colors">alexpomirleanu10@gmail.com</a>
+                </div>
+            </div>
+            <div class="email-item p-4 rounded-xl flex items-center space-x-4">
+                <i class="fa-solid fa-user text-2xl icon"></i>
+                <div>
+                    <p class="font-semibold text-lg">Email Personal și Familie:</p>
+                    <a href="mailto:luminitapomirleanu18@gmail.com" class="text-gray-300 hover:text-purple-300 transition-colors">luminitapomirleanu18@gmail.com</a>
+                </div>
+            </div>
+            <div class="email-item p-4 rounded-xl flex items-center space-x-4">
+                <i class="fa-solid fa-paint-brush text-2xl icon"></i>
+                <div>
+                    <p class="font-semibold text-lg">Email Artist:</p>
+                    <a href="mailto:alexsharkkartist41@gmail.com" class="text-gray-300 hover:text-purple-300 transition-colors">alexsharkkartist41@gmail.com</a>
+                </div>
+            </div>
+            <div class="email-item p-4 rounded-xl flex items-center space-x-4">
+                <i class="fa-solid fa-envelope-open-text text-2xl icon"></i>
+                <div>
+                    <p class="font-semibold text-lg">Alte Emailuri Secundare:</p>
+                    <a href="mailto:alexandrup.s4l.w@gmail.com" class="text-gray-300 hover:text-purple-300 transition-colors block">alexandrup.s4l.w@gmail.com</a>
+                    <a href="mailto:ticktokroyal10@gmail.com" class="text-gray-300 hover:text-purple-300 transition-colors block">ticktokroyal10@gmail.com</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
